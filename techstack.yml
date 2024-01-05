@@ -1,11 +1,12 @@
 repo_name: swadhin1515/prisma
 report_id: 741f66b0e85aecd399a672ccddf22838
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T07:24:12+00:00'
+timestamp: '2024-01-05T08:59:47+00:00'
 requested_by: prisma-bot
 provider: github
 branch: main
-detected_tools_count: 110
+detected_tools_count: 112
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/swadhin1515/prisma
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/package.json
   detection_source: packages/client/package.json
   last_updated_by: timsuchanek
   last_updated_on: 2019-05-31 15:58:07.000000000 Z
@@ -37,7 +40,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
-  detection_source: packages/migrate/src/__tests__/fixtures/reset/prisma/migrations/20201013134654_init/migration.sql
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/src/__tests__/integration/errors/int-errors/setup.sql
+  detection_source: packages/client/src/__tests__/integration/errors/int-errors/setup.sql
   last_updated_by: Tim Suchanek
   last_updated_on: 2020-09-23 08:56:21.000000000 Z
 - name: Smarty
@@ -48,6 +52,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/swadhin1515/prisma
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -58,6 +63,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/swadhin1515/prisma
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -69,6 +75,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: Tim Suchanek
   last_updated_on: 2020-10-21 12:23:20.000000000 Z
@@ -81,8 +88,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/5936/nextjs.png
-  detection_source_url: packages/client/tests/e2e/nextjs-schema-not-found/10_monorepo-serverComponents-customOutput-noReExport/packages/service/package.json
-  detection_source: packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/tests/e2e/nextjs-schema-not-found/10_monorepo-serverComponents-customOutput-noReExport/packages/service/package.json
+  detection_source: packages/client/tests/e2e/nextjs-schema-not-found/10_monorepo-serverComponents-customOutput-noReExport/packages/service/package.json
   last_updated_by: pierre
   last_updated_on: 2023-02-21 22:24:56.000000000 Z
 - name: Node.js
@@ -94,7 +101,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: reproductions/tracing/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/.devcontainer/Dockerfile
+  detection_source: ".devcontainer/Dockerfile"
   last_updated_by: Joël Galeran
   last_updated_on: 2023-07-10 12:58:34.000000000 Z
 - name: React
@@ -107,8 +115,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: packages/client/tests/e2e/nextjs-schema-not-found/10_monorepo-serverComponents-customOutput-noReExport/packages/service/package.json
-  detection_source: packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/tests/e2e/nextjs-schema-not-found/10_monorepo-serverComponents-customOutput-noReExport/packages/service/package.json
+  detection_source: packages/client/tests/e2e/nextjs-schema-not-found/10_monorepo-serverComponents-customOutput-noReExport/packages/service/app/head.jsx
   last_updated_by: pierre
   last_updated_on: 2023-02-21 22:24:56.000000000 Z
 - name: Cloud DB for Mysql
@@ -119,6 +127,7 @@ tools:
   category: Data Stores
   sub_category: SQL Database as a Service
   image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/docker/docker-compose.yml
   detection_source: docker/docker-compose.yml
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-02 08:06:39.000000000 Z
@@ -131,7 +140,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/2445/ZKsJsucq_400x400.jpg
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/package.json
+  detection_source: packages/client/package.json
   last_updated_by: timsuchanek
   last_updated_on: 2019-05-31 15:58:07.000000000 Z
 - name: Microsoft SQL Server
@@ -142,6 +152,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1027/sql_server.png
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/docker/docker-compose.yml
   detection_source: docker/docker-compose.yml
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-02 08:06:39.000000000 Z
@@ -155,7 +166,7 @@ tools:
   category: Data Stores
   sub_category: Object Document Mapper (ODM)
   image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
-  detection_source_url: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/migrate/package.json
   detection_source: packages/migrate/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-16 09:41:37.000000000 Z
@@ -167,7 +178,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/package.json
+  detection_source: packages/client/package.json
   last_updated_by: timsuchanek
   last_updated_on: 2020-09-15 09:54:23.000000000 Z
 - name: Prisma
@@ -179,7 +191,8 @@ tools:
   category: Data Stores
   sub_category: Object Relational Mapper (ORM)
   image_url: https://img.stackshare.io/service/8680/Logo_Symbol_White.jpg
-  detection_source: reproductions/tracing/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
   last_updated_by: pierre
   last_updated_on: 2023-08-22 12:15:38.000000000 Z
 - name: Redis
@@ -192,7 +205,7 @@ tools:
   category: Data Stores
   sub_category: In-Memory Databases
   image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: Renovate Bot
   last_updated_on: 2021-09-08 00:12:16.000000000 Z
@@ -204,6 +217,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Coverage
   image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/.github/codecov.yml
   detection_source: ".github/codecov.yml"
   last_updated_by: Joël Galeran
   last_updated_on: 2021-08-16 09:31:54.000000000 Z
@@ -216,6 +230,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/swadhin1515/prisma
   detection_source: Repo Metadata
 - name: Docker Compose
   description: Define and run multi-container applications with Docker
@@ -226,6 +241,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Container Tools
   image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/docker/docker-compose.yml
   detection_source: docker/docker-compose.yml
   last_updated_by: Joël Galeran
   last_updated_on: 2022-10-13 07:30:46.000000000 Z
@@ -238,7 +254,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
-  detection_source: packages/internals/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2022-10-06 06:28:27.000000000 Z
 - name: ESLint
@@ -250,6 +267,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: Tim Suchanek
   last_updated_on: 2020-10-21 12:23:20.000000000 Z
@@ -261,6 +279,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/swadhin1515/prisma
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -270,7 +289,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/update-studio-version.yml"
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/.github/workflows/benchmark.yml
+  detection_source: ".github/workflows/benchmark.yml"
   last_updated_by: Joël Galeran
   last_updated_on: 2023-07-18 09:32:37.000000000 Z
 - name: Jest
@@ -283,8 +303,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: packages/cli/package.json
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/cli/package.json
+  detection_source: package.json
   last_updated_by: Tim Suchanek
   last_updated_on: 2020-10-21 12:23:20.000000000 Z
 - name: Jetpack
@@ -295,7 +315,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/10139/jetpack.png
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
   last_updated_by: Sergey Tatarintsev
   last_updated_on: 2023-04-03 08:04:23.000000000 Z
 - name: NuGet
@@ -306,6 +327,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: Tim Suchanek
   last_updated_on: 2020-10-21 12:23:20.000000000 Z
@@ -319,7 +341,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-07 07:49:15.000000000 Z
@@ -331,6 +353,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/package.json
   detection_source: packages/client/package.json
   last_updated_by: timsuchanek
   last_updated_on: 2019-05-31 15:58:07.000000000 Z
@@ -344,8 +367,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: packages/client/tests/e2e/nextjs-schema-not-found/11_monorepo-noServerComponents-noCustomOutput-reExportIndirect/packages/service/package.json
-  detection_source: packages/nextjs-monorepo-workaround-plugin/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/tests/e2e/nextjs-schema-not-found/11_monorepo-noServerComponents-noCustomOutput-reExportIndirect/packages/service/package.json
+  detection_source: packages/client/tests/e2e/nextjs-schema-not-found/11_monorepo-noServerComponents-noCustomOutput-reExportIndirect/packages/service/package.json
   last_updated_by: pierre
   last_updated_on: 2023-02-21 22:24:56.000000000 Z
 - name: Yarn
@@ -356,6 +379,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/internals/package.json
   detection_source: packages/internals/package.json
   last_updated_by: timsuchanek
   last_updated_on: 2019-10-02 18:09:34.000000000 Z
@@ -367,6 +391,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Scaffolding Tools
   image_url: https://img.stackshare.io/service/853/46ea2dd8b1bdd31a8ba61044cb5b6ebe.png
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/package.json
   detection_source: packages/client/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-05-22 06:54:30.000000000 Z
@@ -378,6 +403,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/migrate/package.json
   detection_source: packages/migrate/package.json
   last_updated_by: timsuchanek
   last_updated_on: 2019-05-27 17:06:32.000000000 Z
@@ -388,7 +414,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/3519/3wgIDj3j_normal.png
-  detection_source: docker/mongodb_replica/Dockerfile
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/docker/docker-compose.yml
+  detection_source: docker/docker-compose.yml
   last_updated_by: Joël Galeran
   last_updated_on: 2022-02-18 10:10:35.000000000 Z
 - name: Shell
@@ -400,12 +427,14 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/swadhin1515/prisma
   detection_source: Repo Metadata
 - name: husky
   website_url: https://github.com/typicode/husky
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: Alexey Orlenko
   last_updated_on: 2023-07-28 15:25:49.000000000 Z
@@ -414,6 +443,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-14 06:56:57.000000000 Z
@@ -425,7 +455,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Bash Scripts
   image_url: https://img.stackshare.io/service/25684/default_09d743c2ce3cd5b32e4cae363d05941d9d137dd9.png
-  detection_source: packages/client/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
+  detection_source: package.json
   last_updated_by: Tim Suchanek
   last_updated_on: 2020-10-21 12:23:20.000000000 Z
 - name: "@types/cross-spawn"
@@ -438,7 +469,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18504/default_aabef48673d7b85e098f65ec3d0fa0b5983de6b5.png
-  detection_source_url: packages/generator-helper/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/generator-helper/package.json
   detection_source: packages/generator-helper/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-23 14:13:07.000000000 Z
@@ -452,8 +483,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16332/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
-  detection_source_url: packages/cli/package.json
-  detection_source: packages/debug/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-23 14:13:07.000000000 Z
 - name: "@types/fs-extra"
@@ -466,8 +497,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: package.json
-  detection_source: packages/client/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
+  detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-16 04:25:09.000000000 Z
 - name: "@types/jest"
@@ -480,8 +511,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: packages/cli/package.json
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-23 14:13:07.000000000 Z
 - name: "@types/node"
@@ -494,8 +525,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: package.json
-  detection_source: reproductions/tracing/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
+  detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-16 04:25:09.000000000 Z
 - name: "@types/node-fetch"
@@ -508,8 +539,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16459/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
-  detection_source_url: package.json
-  detection_source: packages/fetch-engine/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
+  detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-16 04:25:09.000000000 Z
 - name: "@types/pg"
@@ -522,8 +553,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17947/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
-  detection_source_url: packages/client/package.json
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/package.json
+  detection_source: packages/client/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-23 14:13:07.000000000 Z
 - name: "@types/react"
@@ -536,8 +567,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: packages/client/tests/e2e/nextjs-schema-not-found/10_monorepo-serverComponents-customOutput-noReExport/packages/service/package.json
-  detection_source: packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/tests/e2e/nextjs-schema-not-found/10_monorepo-serverComponents-customOutput-noReExport/packages/service/package.json
+  detection_source: packages/client/tests/e2e/nextjs-schema-not-found/10_monorepo-serverComponents-customOutput-noReExport/packages/service/package.json
   last_updated_by: pierre
   last_updated_on: 2023-02-21 22:24:56.000000000 Z
 - name: "@types/redis"
@@ -550,7 +581,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17536/default_1d2902e8f9c84259702671591379572493b9009b.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-16 04:25:09.000000000 Z
@@ -564,7 +595,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16613/default_8bb559d64720e298d7108ccd64281e535c1c76a8.png
-  detection_source_url: packages/cli/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/cli/package.json
   detection_source: packages/cli/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-23 14:13:07.000000000 Z
@@ -578,7 +609,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-16 04:25:09.000000000 Z
@@ -592,7 +623,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-16 04:25:09.000000000 Z
@@ -606,7 +637,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16407/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
-  detection_source_url: packages/internals/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/internals/package.json
   detection_source: packages/internals/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2022-04-20 08:01:58.000000000 Z
@@ -620,8 +651,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17564/default_99afdc7126f8a31ae778ef58d50c93ae3dd88880.png
-  detection_source_url: package.json
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
+  detection_source: package.json
   last_updated_by: Tim Suchanek
   last_updated_on: 2020-10-21 12:23:20.000000000 Z
 - name: benchmark
@@ -635,8 +666,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16241/default_cbc604730ab04341982d806fe402cd0706cc8bf4.png
-  detection_source_url: packages/client/package.json
-  detection_source: packages/get-platform/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/package.json
+  detection_source: packages/client/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-07 07:48:21.000000000 Z
 - name: buffer
@@ -649,7 +680,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16609/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: Renovate Bot
   last_updated_on: 2021-10-18 09:32:33.000000000 Z
@@ -663,7 +694,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16043/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: pierre
   last_updated_on: 2022-05-12 19:51:38.000000000 Z
@@ -677,7 +708,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16069/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: packages/generator-helper/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/generator-helper/package.json
   detection_source: packages/generator-helper/package.json
   last_updated_by: Sergey Tatarintsev
   last_updated_on: 2023-04-25 12:16:35.000000000 Z
@@ -691,8 +722,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: packages/cli/package.json
-  detection_source: packages/debug/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-05-24 05:52:33.000000000 Z
 - name: decimal.js
@@ -705,8 +736,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18188/default_13969c5d2859d7d510fdef0e78c273ae025e9cc4.png
-  detection_source_url: packages/client/package.json
-  detection_source: packages/integration-tests/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/package.json
+  detection_source: packages/client/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-02-02 15:08:44.000000000 Z
 - name: del
@@ -719,7 +750,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
-  detection_source_url: packages/fetch-engine/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/fetch-engine/package.json
   detection_source: packages/fetch-engine/package.json
   last_updated_by: pierre
   last_updated_on: 2022-07-01 12:12:40.000000000 Z
@@ -733,8 +764,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16736/default_cc1793e454d6d035c188f0198b037d58f372e7f2.png
-  detection_source_url: packages/get-platform/package.json
-  detection_source: packages/internals/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/get-platform/package.json
+  detection_source: packages/get-platform/package.json
   last_updated_by: Alberto Schiabel
   last_updated_on: 2023-02-01 14:00:04.000000000 Z
 - name: eslint-config-prettier
@@ -747,7 +778,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-14 06:56:57.000000000 Z
@@ -761,7 +792,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17716/default_9693d58c90f5c726ee648423687212d2a94266da.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-14 06:56:57.000000000 Z
@@ -775,7 +806,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-14 06:56:57.000000000 Z
@@ -789,7 +820,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15996/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-14 06:56:57.000000000 Z
@@ -803,7 +834,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-14 06:56:57.000000000 Z
@@ -818,7 +849,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16574/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-05-02 07:20:06.000000000 Z
@@ -832,8 +863,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16132/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
-  detection_source_url: package.json
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
+  detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-06-07 07:16:16.000000000 Z
 - name: fast-glob
@@ -846,7 +877,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17033/default_50357c490b205882dcfb608fd3c74b446186c21e.png
-  detection_source_url: packages/cli/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/cli/package.json
   detection_source: packages/cli/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-09 13:21:31.000000000 Z
@@ -860,7 +891,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17885/default_4b188d76bd950317acb7d53fc6b71007ec58af0d.png
-  detection_source_url: packages/fetch-engine/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/fetch-engine/package.json
   detection_source: packages/fetch-engine/package.json
   last_updated_by: pierre
   last_updated_on: 2022-07-01 12:12:40.000000000 Z
@@ -874,7 +905,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17030/default_824835a71140f223a333a5e10225c10368f12857.png
-  detection_source_url: packages/internals/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/internals/package.json
   detection_source: packages/internals/package.json
   last_updated_by: timsuchanek
   last_updated_on: 2020-10-29 12:54:59.000000000 Z
@@ -888,8 +919,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17989/default_72dbba22ca96f25f78f55f8ea5393222efca5494.png
-  detection_source_url: packages/internals/package.json
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/internals/package.json
+  detection_source: packages/internals/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-16 09:41:37.000000000 Z
 - name: fs-extra
@@ -903,8 +934,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: package.json
-  detection_source: packages/internals/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
+  detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-09 13:21:31.000000000 Z
 - name: fs-jetpack
@@ -917,8 +948,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18416/default_866295ec9b57ad977c956d0fed2e144aaca6c4a0.png
-  detection_source_url: packages/cli/package.json
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
   last_updated_by: Sergey Tatarintsev
   last_updated_on: 2023-04-03 08:04:23.000000000 Z
 - name: get-port
@@ -931,7 +962,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16732/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
-  detection_source_url: packages/cli/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/cli/package.json
   detection_source: packages/cli/package.json
   last_updated_by: pierre
   last_updated_on: 2022-07-01 12:12:40.000000000 Z
@@ -945,7 +976,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17101/default_50357c490b205882dcfb608fd3c74b446186c21e.png
-  detection_source_url: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/migrate/package.json
   detection_source: packages/migrate/package.json
   last_updated_by: pierre
   last_updated_on: 2022-07-01 12:12:40.000000000 Z
@@ -959,7 +990,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18041/image.png
-  detection_source_url: packages/client/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/package.json
   detection_source: packages/client/package.json
   last_updated_by: Sergey Tatarintsev
   last_updated_on: 2023-05-02 13:06:57.000000000 Z
@@ -973,8 +1004,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16159/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: package.json
-  detection_source: packages/internals/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
+  detection_source: package.json
   last_updated_by: pierre
   last_updated_on: 2022-05-12 19:51:38.000000000 Z
 - name: hasha
@@ -987,7 +1018,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18650/default_3eb5180fb08eb9c684c6269a642bfab3a16bcf1d.png
-  detection_source_url: packages/fetch-engine/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/fetch-engine/package.json
   detection_source: packages/fetch-engine/package.json
   last_updated_by: pierre
   last_updated_on: 2022-07-01 12:12:40.000000000 Z
@@ -1001,10 +1032,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17334/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
-  detection_source_url: packages/fetch-engine/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/fetch-engine/package.json
   detection_source: packages/fetch-engine/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-07-12 08:33:36.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Alexey Orlenko
+  last_updated_on: 2023-07-28 15:25:49.000000000 Z
 - name: indent-string
   description: Indent each line in a string
   package_url: https://www.npmjs.com/indent-string
@@ -1015,8 +1060,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18122/image.png
-  detection_source_url: packages/client/package.json
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/package.json
+  detection_source: packages/client/package.json
   last_updated_by: pierre
   last_updated_on: 2023-08-18 10:31:23.000000000 Z
 - name: is-ci
@@ -1029,7 +1074,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18090/image.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: Alexey Orlenko
   last_updated_on: 2023-07-28 15:25:49.000000000 Z
@@ -1043,7 +1088,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17097/default_faf55ef1f2892d4dcce54ed77892756797ff34e1.png
-  detection_source_url: packages/internals/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/internals/package.json
   detection_source: packages/internals/package.json
   last_updated_by: pierre
   last_updated_on: 2023-04-18 15:06:32.000000000 Z
@@ -1057,10 +1102,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16536/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: package.json
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
+  detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-07-19 07:43:51.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 14.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-08-14 06:56:57.000000000 Z
 - name: log-update
   description: Log by overwriting the previous output in the terminal
   package_url: https://www.npmjs.com/log-update
@@ -1071,8 +1130,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17296/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
-  detection_source_url: packages/cli/package.json
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
   last_updated_by: timsuchanek
   last_updated_on: 2020-04-09 17:22:07.000000000 Z
 - name: node-fetch
@@ -1085,8 +1144,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: package.json
-  detection_source: packages/internals/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
+  detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-16 04:25:09.000000000 Z
 - name: open
@@ -1099,8 +1158,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16245/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
-  detection_source_url: packages/cli/package.json
-  detection_source: packages/internals/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
   last_updated_by: Renovate Bot
   last_updated_on: 2021-02-17 05:49:27.000000000 Z
 - name: ora
@@ -1113,7 +1172,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15937/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/migrate/package.json
   detection_source: packages/migrate/package.json
   last_updated_by: timsuchanek
   last_updated_on: 2019-05-27 17:06:32.000000000 Z
@@ -1127,8 +1186,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18139/default_5813ab9c745152271a057cdab6eeded8939401f3.png
-  detection_source_url: package.json
-  detection_source: packages/internals/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
+  detection_source: package.json
   last_updated_by: Renovate Bot
   last_updated_on: 2020-11-30 16:45:41.000000000 Z
 - name: pg
@@ -1141,8 +1200,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16197/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
-  detection_source_url: packages/client/package.json
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/package.json
+  detection_source: packages/client/package.json
   last_updated_by: timsuchanek
   last_updated_on: 2019-05-31 15:58:07.000000000 Z
 - name: pkg-up
@@ -1155,8 +1214,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18426/default_9499465ee49aaffadf126149b962e9838bc4a993.png
-  detection_source_url: packages/cli/package.json
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
   last_updated_by: timsuchanek
   last_updated_on: 2020-04-09 17:22:07.000000000 Z
 - name: pluralize
@@ -1169,7 +1228,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16498/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
-  detection_source_url: packages/client/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/package.json
   detection_source: packages/client/package.json
   last_updated_by: pierre
   last_updated_on: 2023-04-18 15:06:32.000000000 Z
@@ -1183,7 +1242,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16410/default_536789d2630ed352dc721a1c915ab456b7660201.png
-  detection_source_url: packages/fetch-engine/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/fetch-engine/package.json
   detection_source: packages/fetch-engine/package.json
   last_updated_by: pierre
   last_updated_on: 2022-07-01 12:12:40.000000000 Z
@@ -1197,8 +1256,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17250/default_8da30b412bf0dbb63f862bee0dfab0a32df2fb69.png
-  detection_source_url: packages/internals/package.json
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/internals/package.json
+  detection_source: packages/internals/package.json
   last_updated_by: Alberto Schiabel
   last_updated_on: 2022-04-19 09:51:28.000000000 Z
 - name: react-dom
@@ -1211,8 +1270,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: packages/client/tests/e2e/nextjs-schema-not-found/10_monorepo-serverComponents-customOutput-noReExport/packages/service/package.json
-  detection_source: packages/client/tests/e2e/nextjs-schema-not-found/9_monorepo-noServerComponents-customOutput-noReExport/packages/service/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/tests/e2e/nextjs-schema-not-found/10_monorepo-serverComponents-customOutput-noReExport/packages/service/package.json
+  detection_source: packages/client/tests/e2e/nextjs-schema-not-found/10_monorepo-serverComponents-customOutput-noReExport/packages/service/package.json
   last_updated_by: pierre
   last_updated_on: 2023-02-21 22:24:56.000000000 Z
 - name: read-pkg-up
@@ -1225,7 +1284,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16895/default_3772c3833c88109974c994fa9f9548ac8ad59f11.png
-  detection_source_url: packages/internals/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/internals/package.json
   detection_source: packages/internals/package.json
   last_updated_by: Joël Galeran
   last_updated_on: 2021-08-02 14:55:24.000000000 Z
@@ -1239,7 +1298,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16148/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-08 08:43:52.000000000 Z
@@ -1253,8 +1312,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16128/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source_url: package.json
-  detection_source: packages/internals/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
+  detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-09 13:21:31.000000000 Z
 - name: rimraf
@@ -1267,8 +1326,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: packages/cli/package.json
-  detection_source: packages/fetch-engine/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-08-25 01:01:31.000000000 Z
 - name: safe-buffer
@@ -1281,7 +1340,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16801/default_dc62f5e9b636403c2d19676924f5b6b881abcac8.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: Renovate Bot
   last_updated_on: 2021-10-18 09:32:33.000000000 Z
@@ -1295,7 +1354,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: packages/client/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/package.json
   detection_source: packages/client/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-08 23:54:02.000000000 Z
@@ -1310,7 +1369,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17879/default_369b3bf3ef062123a581e4817f09cb0004de7ff6.png
-  detection_source_url: packages/internals/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/internals/package.json
   detection_source: packages/internals/package.json
   last_updated_by: Sergey Tatarintsev
   last_updated_on: 2023-05-02 13:06:57.000000000 Z
@@ -1324,8 +1383,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16331/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: packages/cli/package.json
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
   last_updated_by: Renovate Bot
   last_updated_on: 2021-10-13 04:13:58.000000000 Z
 - name: strip-indent
@@ -1338,8 +1397,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18747/default_1f93b00a0aa6ebc30a3a7957359f1ee2067b51e1.png
-  detection_source_url: packages/client/package.json
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/package.json
+  detection_source: packages/client/package.json
   last_updated_by: pierre
   last_updated_on: 2023-08-18 10:31:23.000000000 Z
 - name: tempy
@@ -1352,8 +1411,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17057/default_32da0e64c9ec90f8f302a76668f802f1f4d08177.png
-  detection_source_url: packages/fetch-engine/package.json
-  detection_source: packages/migrate/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/fetch-engine/package.json
+  detection_source: packages/fetch-engine/package.json
   last_updated_by: pierre
   last_updated_on: 2022-07-01 12:12:40.000000000 Z
 - name: tmp
@@ -1366,7 +1425,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16251/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
-  detection_source_url: packages/internals/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/internals/package.json
   detection_source: packages/internals/package.json
   last_updated_by: timsuchanek
   last_updated_on: 2019-10-02 18:09:34.000000000 Z
@@ -1380,8 +1439,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package.json
-  detection_source: reproductions/tracing/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
+  detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-16 04:25:09.000000000 Z
 - name: tsd
@@ -1394,7 +1453,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16858/default_21db97bdb9f4092d80f256d3afec4658fbafe443.png
-  detection_source_url: packages/client/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/package.json
   detection_source: packages/client/package.json
   last_updated_by: timsuchanek
   last_updated_on: 2019-05-31 15:58:07.000000000 Z
@@ -1408,7 +1467,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16507/default_55f3303d620c93eecbee69c43373d484f2be492f.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/package.json
   detection_source: package.json
   last_updated_by: pierre
   last_updated_on: 2023-01-09 23:57:47.000000000 Z
@@ -1422,7 +1481,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17245/default_8da30b412bf0dbb63f862bee0dfab0a32df2fb69.png
-  detection_source_url: packages/integration-tests/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/integration-tests/package.json
   detection_source: packages/integration-tests/package.json
   last_updated_by: Renovate Bot
   last_updated_on: 2021-11-03 01:39:04.000000000 Z
@@ -1437,7 +1496,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15971/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
-  detection_source_url: packages/client/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/package.json
   detection_source: packages/client/package.json
   last_updated_by: pierre
   last_updated_on: 2023-08-18 10:31:23.000000000 Z
@@ -1451,7 +1510,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17899/default_3bc64391130859f94a137a7dc6cb87cd54da546b.png
-  detection_source_url: packages/client/package.json
+  detection_source_url: https://github.com/swadhin1515/prisma/blob/main/packages/client/package.json
   detection_source: packages/client/package.json
   last_updated_by: timsuchanek
   last_updated_on: 2019-05-31 15:58:07.000000000 Z
