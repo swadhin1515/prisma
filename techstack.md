@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 swadhin1515/prisma is built on the following main stack:
+
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - [Yeoman](http://yeoman.io/) – Front End Scaffolding Tools
 - [Ruby](https://www.ruby-lang.org) – Languages
@@ -33,11 +34,13 @@ swadhin1515/prisma is built on the following main stack:
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 swadhin1515/prisma is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/853/46ea2dd8b1bdd31a8ba61044cb5b6ebe.png' alt='Yeoman'/> [Yeoman](http://yeoman.io/) – Front End Scaffolding Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
@@ -69,14 +72,15 @@ swadhin1515/prisma is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [swadhin1515/prisma](https://github.com/swadhin1515/prisma)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|110<br/>Tools used|11/10/23 <br/>Report generated|
+|112<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -404,9 +408,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (73)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (75)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (73)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (75)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -451,10 +455,12 @@ Full tech stack [here](/techstack.md)
 |[globby](https://www.npmjs.com/globby)|v11.1.0|05/12/22|pierre |MIT|N/A|
 |[hasha](https://www.npmjs.com/hasha)|v5.2.2|07/01/22|pierre |MIT|N/A|
 |[https-proxy-agent](https://www.npmjs.com/https-proxy-agent)|v7.0.1|07/12/23|renovate[bot] |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v8.0.3|07/28/23|Alexey Orlenko |MIT|N/A|
 |[indent-string](https://www.npmjs.com/indent-string)|v4.0.0|08/18/23|pierre |MIT|N/A|
 |[is-ci](https://www.npmjs.com/is-ci)|v3.0.1|07/28/23|Alexey Orlenko |MIT|N/A|
 |[is-wsl](https://www.npmjs.com/is-wsl)|v2.2.0|04/18/23|pierre |MIT|N/A|
 |[jest-junit](https://www.npmjs.com/jest-junit)|v16.0.0|07/19/23|renovate[bot] |Apache-2.0|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v14.0.0|08/14/23|renovate[bot] |MIT|N/A|
 |[log-update](https://www.npmjs.com/log-update)|v4.0.0|04/09/20|timsuchanek |MIT|N/A|
 |[node-fetch](https://www.npmjs.com/node-fetch)|v2.6.12|08/16/23|renovate[bot] |MIT|N/A|
 |[open](https://www.npmjs.com/open)|v7.4.2|02/17/21|Renovate Bot |MIT|N/A|
@@ -487,4 +493,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
